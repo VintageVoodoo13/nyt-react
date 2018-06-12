@@ -1,0 +1,40 @@
+{
+  "name": "nyt-react",
+  "version": "1.0.0",
+  "description": "Homework Objectives: Create a new React-based rendition of a New York Times Article Search application. This requires creating React components, working with helper functions, and utilizing the React mounting lifecycle to query and display articles based on user searches. Also uses Node, Express and MongoDB so that users can save articles to read later.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "core-js": "^2.4.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.5.10",
+    "morgan": "^1.7.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "request": "^2.74.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
